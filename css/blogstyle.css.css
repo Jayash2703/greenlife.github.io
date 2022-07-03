@@ -1,0 +1,87 @@
+.colour-block {
+    background:#b4eff7;
+    width:100%;
+    padding:7% 20% 10% 20%;
+    color:#fff;
+  }
+  .white-block {
+    background-image: url(../images/fiji-surprise/nature1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    padding:7% 20% 10% 20%;
+    color:black;
+  }
+  .black-block{
+    background-image: url(../images/fiji-surprise/nature2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    width:100%;
+    padding:7% 20% 10% 20%;
+    color:black;
+  }
+  h1 {
+    font-family: cursive;
+    text-align: center;
+    font-size: 80px;
+    /* font-family: 'wire one', serif; */
+    font-weight: normal;
+    color: #f6fafc;
+}
+ 
+  
+  h2{
+    text-align:center;
+    font-size:40px;
+    /* font-family:'wire one', serif; */
+    font-weight:normal;
+  }
+  .Blogger p {
+    color: #024444;
+    font-size:20px;
+    font-family:'Raleway', serif;
+  }
+  
+  
+  /*------------------*/
+  /*  SKEW CLOCKWISE  */
+  /*------------------*/
+  .skew-cc{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to right bottom, #95dde7 49%, #fff 50%),
+        linear-gradient(-50deg, #ffffff 16px, #000 0);
+  }
+  
+  
+  /*-------------------------*/
+  /* SKEW COUNTER CLOCKWISE  */
+  /*-------------------------*/
+  .skew-c{
+    width:100%;
+    height:100px;
+    position:absolute;
+    left:0px;
+    background: linear-gradient(to left bottom, #95dde7,#fff 49%,  50%);
+    text-align: left;
+  }
+  @media screen and (max-width: 480px) {
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: none;
+    }
+    h1{
+      font-size: 50px;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    }
+    h2{
+      font-size: 25px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  }
